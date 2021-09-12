@@ -1,0 +1,29 @@
+{
+  "name": "command-parser-js",
+  "version": "0.0.1",
+  "description": "Utility for parsing command line string",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "keywords": [
+    "Command",
+    "Line",
+    "Terminal",
+    "sh",
+    "shell",
+    "nodejs"
+  ],
+  "author": "Ndifreke Ekim",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ]
+}
